@@ -20,6 +20,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { GraficaComponent } from '../components/grafica/grafica.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations:[
@@ -30,7 +31,8 @@ import { PromesasComponent } from './promesas/promesas.component';
     IncrementadorComponent,
     GraficaComponent,
     AccountSettingsComponent,
-    PromesasComponent
+    PromesasComponent,
+    RxjsComponent
 
   ],
   exports:[
